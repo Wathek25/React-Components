@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.Navtitle {
+  color: #000000;
+  padding: 2%;
+  margin: 2% 20%;
+}
+
+.list-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  background-color: #67b7ecf8;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.service-card:hover {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.service-card .title {
+  color: #000000;
+}
